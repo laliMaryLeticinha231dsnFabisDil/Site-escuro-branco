@@ -1,16 +1,103 @@
+*{
+    margin: 0;
+    margin-top: 0;
+}
+
+@font-face {
+    font-family: sofia-italic;
+    src: url(font/SofiaSans-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: sofia-sans;
+    src: url(font/SofiaSans-Italic.ttf);
+}
+
+
+
+header{
+    background-color: rgba(145, 13, 167, 1);
+    color:white;
+    width: 201vh;
+    height: 100vh;
+}
+
+/* Titulo */
+h2{
+    font-size:  55.25px;
+    font-family:  sofia-sans;
+    margin-left: 20vh;
+   padding-top: 5vh;
+  
+
+}
+.titulo{
+    color: #70FF00; 
+    
+
+}
+
+/* Cabeçalho o começo */
 #cabecalho{
-    background-color: purple;
-    color:white
+    margin-left: 70vh;
+    display: flex;
+    margin-left: 100vh;
+    
 }
+
+/* fazendo os campos do cabeçalho */
+h3{
+    margin: 20px;
+    font-size: 35px;
+    line-height: 42px;
+    font-family: sofia-sans;
+    margin-top: -5vh;
+}
+
+/* Fazendo um "fundo" da imagem  */
+
 #verde{
-    width: 70vh;
-    height: 60vh;
-    background-color: green;
-    border-radius: 9px;
+    width: 367.3px;
+    height: 418.99px;
+    background-color: rgba(82, 186, 0, 1);
+    border-radius: 54.99px;
+    margin-top: 12vh;
+    margin-left: 30vh;
 
 }
+/* Editando a imagem */
+.homem{
+    width: 333.21px ;
+    height: 450.88px;
+    border-radius: 55px;
+    margin-left: 10vh;
+    margin-top: 5vh;
+}
 
-img{
-    border-radius: 9px;
-    width: 20 ;
+.paragrafo{
+    margin-left: 100vh;
+    margin-top: -35vh;
+     font-family:  sofia-sans;
+     font-size: 60px;
+     
+}
+
+/* começo do main */
+/* editando as imagens */
+
+.foto{
+    width: 220px;
+    height: 226px;
+  
+   
+   
+}
+
+.titulo2{
+    color: rgba(234, 71, 16, 1);
+}
+
+#totalFotos{
+    display: flex;
+    margin-left: 30vh;
 }
