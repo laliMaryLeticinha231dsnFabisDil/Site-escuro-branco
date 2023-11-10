@@ -83,14 +83,12 @@ h3{
 }
 
 /* começo do main */
-/* editando as imagens */
+/* editando as imagens  parte de fotografia*/
 
 .foto{
     width: 220px;
     height: 226px;
-  
-   
-   
+    margin: 15px 
 }
 
 .titulo2{
@@ -100,4 +98,35 @@ h3{
 #totalFotos{
     display: flex;
     margin-left: 30vh;
+}
+
+
+.imagens-1, .imagens-2, .imagens-3{
+  margin-left: 8vh;
+  margin-top: 9vh;
+}
+
+p{
+    font-family: sofia-italic;
+    font-weight: 600;
+    margin-left: 2vh;
+}
+
+
+/* NOSSO BLOG */
+
+#nosso-blog{
+    background-color: rgba(145, 13, 167, 1); 
+    width: 201vh;
+    height: 90vh;
+}
+
+.img-camera{
+    margin-left: 23vh;
+    margin-top: 12vh;
+}
+
+.titulo-blog{
+    color: #70FF00;
+    margin-top: 10vh;
 }
