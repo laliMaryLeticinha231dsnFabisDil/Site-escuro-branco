@@ -4,17 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cc3f8c12e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Lente Viva</title>
 </head>
 
 <body>
-    <header>
+    <header class="comeco">
+        <div class="le">
         <h2>Lente <span class="titulo">viva</span></h2>
         <div id="cabecalho">
             <h3>Serviços</h3>
             <h3>Blog</h3>
             <h3>Contato</h3>
+            <i id="icone" class="fa-solid fa-toggle-on"></i>
+            
         </div>
         <div id="verde">
             <img class="homem" src="img/HOMEM.png" alt="">
@@ -22,6 +26,7 @@
         <div class="paragrafo">
             <p>TRANSFORMANDO MOMENTOS EM MEMÓRIAS ETERNAS.</p>
         </div>
+    </div>
     </header>
 
     <main>
@@ -50,7 +55,97 @@
             <h2 class="titulo-blog">NOSSOBLOG</h2>
             <img class="img-camera" src="img/camera.png" alt="">
         </div>
-    </main>
-</body>
 
+        <div class="formulario">
+            <h2 class="titulo-contato">contate-nos</h2>
+            <img class="imagem-bolsa" src="img/BOLSA.png" alt="">
+        
+            <div class="forms">
+                <form">
+                    <label id="name" for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"><br><br>
+        
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"><br><br>
+        
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone"><br><br>
+        
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        
+                    <button type="submit" id="btn">Enviar</button>
+                </form>
+            </div>
+        </div>
+        
+            
+        </main>
+    <footer>
+<div id="rodape">
+    <h2>Lente <span class="titulo">viva</span></h2>
+    <div id="cabecalho">
+        <h3>Serviços</h3>
+        <h3>Blog</h3>
+        <h3>Contato</h3>
+</div>
+</footer>
+
+
+<style>
+body {
+    background-color: white;
+    color: black;
+}
+
+
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+
+
+#icone.dark-mode {
+    background-color: white;
+    color: black;
+
+    header.dark-mode {
+    background-color:  rgb(48, 1, 57); 
+    color: #ccc;
+}
+
+footer.dark-mode {
+    background-color: rgb(48, 1, 57); 
+    color: #ccc;
+}
+
+}
+</style>
+
+
+<script>
+   const trocarTema = document.getElementById("icone");
+    const body = document.body;
+    
+
+trocarTema.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
+    trocarTema.classList.toggle("dark-mode");
+});
+    
+</script>
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

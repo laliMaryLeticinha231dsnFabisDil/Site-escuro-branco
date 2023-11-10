@@ -107,7 +107,7 @@ h3{
 }
 
 p{
-    font-family: sofia-italic;
+    font-family: sofia-sans;
     font-weight: 600;
     margin-left: 2vh;
 }
@@ -129,4 +129,80 @@ p{
 .titulo-blog{
     color: #70FF00;
     margin-top: 10vh;
+}
+
+/* FORMULÁRIO */
+
+.titulo-contato{
+    color: rgba(234, 71, 16, 1);
+    margin-top: 10vh;
+    
+}
+.forms{
+    margin-left: 40vh;
+    margin-top: -70vh;
+}
+
+
+#mensagem {
+    border-radius: 10px;
+    background-color: rgba(217, 217, 217, 1);
+    border: 1px solid black; 
+    resize: none;
+    height: 20vh;
+}
+
+
+label{
+    width: 98px;
+    font-family:sofia-sans ;
+    display: block; /* Isso fará com que o label fique em cima do input */
+    margin-bottom: 5px; 
+    
+}
+
+input{
+    width: 50vh;
+    height: 4vh;
+    background-color:rgba(217, 217, 217, 1);
+    border: #6fff0000;
+    border-radius: 10px;
+}
+
+
+
+#btn{
+    width: 20vh;
+    height: 5vh;
+    background-color: rgba(146, 13, 167, 1);
+    color: white;
+    text-align: center;
+    margin-left: 14vh;
+    border-radius: 15px;
+    border: rgba(255, 228, 196, 0);
+}
+
+.imagem-bolsa{
+    margin-left: 120vh;
+    margin-top: 20vh;
+    width: 22vw;
+    height: 35vw;
+    
+}
+
+/* RODAPÉ */
+
+#rodape{
+    background-color: rgba(145, 13, 167, 1);
+    color: white;
+    margin-top: 40vh;
+}
+
+
+/* ICONE */
+
+#icone{
+    font-size: 5vh;
+    margin-left: 8vh;
+    margin-top: -3vh;
 }
